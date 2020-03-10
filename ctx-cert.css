@@ -1,5 +1,5 @@
 #ctx-badge{
-  /* monogram position here */
+  /* badge position here */
   position: absolute;
   top: calc(50% - 45px);
   left: calc(50% - 45px);
@@ -19,13 +19,13 @@
   animation: bounce .75s linear both;
   background: #673AB7;
 }
-#ctx-badge svg {
+#ctx-badge img {
   position: absolute;
   width: 90px;
   height: 90px;
   fill: #000000;
 }
-#ctx-badge:hover svg{
+#ctx-badge:hover img{
   fill: #EDEDED;
 }
 .ctx-badge-content{
@@ -55,7 +55,7 @@
     width: 60px;
     height: 60px;
   }
-  #ctx-badge svg {
+  #ctx-badge img {
     width: 60px;
     height: 60px;
   }
@@ -72,7 +72,7 @@
   #ctx-badge-title{
     display: none;
   }
-  #ctx-badge-award{
+  #ctx-badge-security{
     display: none;
   }
 }
